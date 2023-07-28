@@ -1,0 +1,127 @@
+* {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #990033;
+    padding: 10px;
+    padding-top: 15px;
+    color: white;
+    position: sticky;
+    top: 0;
+}
+
+.nav-links a {
+    padding-right: 20px;
+    text-decoration: none;
+}
+
+.nav-links a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+#welcome-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    gap: 20px;
+    background: linear-gradient(45deg, #333333, #0d0d0d);
+}
+
+#welcome-section h1 {
+    font-size: 50px;
+    color: white;
+}
+
+#welcome-section p {
+    font-style: italic;
+    font-size: 18px;
+    color: #990033;
+}
+
+h2 {
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 30px;
+    font-size: 26;
+    color: white;
+}
+
+#projects {
+    background-color: #4747d1;
+    padding-bottom: 50px;
+}
+
+.project-img {
+    width: 350px;
+    height: auto;
+    border-radius: 10px 10px 0 0;
+}
+
+.project-caption {
+    text-align: center;
+    background-color: #002266;
+    color: white;
+    font-size: 16px;
+    padding: 5 0;
+    border-radius: 0 0 10px 10px;
+}
+
+.project-tile {
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+}
+
+.project-tile:hover {
+    border: 3px solid #cc7a00;
+    border-radius: 13px;
+}
+
+.projects-section {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#contact {
+    background-color: #333333;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+#contact a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+#contact a:hover {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+
+.contact-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+@media (max-width: 700px) {
+    #welcome-section h1 {
+        font-size: 40px;
+        color: white;
+    }
+}
